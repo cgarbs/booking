@@ -1,8 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Create from './components/Create.js'
-
-// TESTING GITHUB TOKEN FUNCTIONALITY
+import View from './components/View.js'
 
 function App() {
   return (
@@ -22,6 +21,7 @@ function App() {
         </a>
       </header>
       <Create />
+      <View />
     </div>
   );
 }

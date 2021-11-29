@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 
-class Create extends Component {
+class View extends Component {
     render() {
         return (
             <div>
-                CREATE BOOKING FORM
-                for administrators
+                VIEW ALL AVAILABLE BOOKINGS
             </div>
         );
     }
 }
 
-export default Create;
+export default View;
