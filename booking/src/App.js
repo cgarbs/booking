@@ -6,14 +6,12 @@ import { Switch, Route } from "react-router-dom";
 
 import Create from './components/Create.js'
 import Reserve from './components/Reserve.js'
-import View from './components/View.js'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Create />
-        <View />
         <Reserve />
       </div>
     );
