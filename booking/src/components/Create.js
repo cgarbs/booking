@@ -4,8 +4,7 @@ class Create extends Component {
     render() {
         return (
             <div>
-                CREATE BOOKING FORM
-                for administrators
+                
             </div>
         );
     }
