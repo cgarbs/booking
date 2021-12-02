@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { Component } from "react";
 import { Routes, Route } from "react-router-dom";
-// { Switch, Route, Redirect }
+// { Switch?, Route, Routes, Redirect }
 
 import Home from './components/Home.js'
 import Create from './components/Create.js'
@@ -13,7 +12,8 @@ class App extends Component {
     return (
       <div className="App">
         <Home />
-        <Routes>
+        <Routes> {/* Switch? */}
+          <Route exact path="/" render={(props) => <Home {...props} />} />
           <Route exact path="/reserve" render={(props) => <Reserve {...props} />} />
           <Route exact path="/create" render={(props) => <Create {...props} />} />
         </Routes>
