@@ -4,7 +4,7 @@ class Create extends Component {
     render() {
         return (
             <div>
-                TESTING
+                Functional
             </div>
         );
     }

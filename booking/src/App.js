@@ -1,8 +1,8 @@
 import './App.css';
 import React, { Component } from "react";
-import { Routes, Route } from "react-router-dom";
-// { Switch?, Route, Routes, Redirect }
+import { Routes, Route, Link, Redirect } from "react-router-dom";
 
+import Navbar from './components/Navbar.js'
 import Home from './components/Home.js'
 import Create from './components/Create.js'
 import Reserve from './components/Reserve.js'
@@ -11,11 +11,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Home />
-        <Routes> {/* Switch? */}
-          <Route exact path="/" render={(props) => <Home {...props} />} />
-          <Route exact path="/reserve" render={(props) => <Reserve {...props} />} />
-          <Route exact path="/create" render={(props) => <Create {...props} />} />
+        <Navbar />
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route exact path='/reserve' element={<Reserve />} />
+          <Route exact path='/create' element={<Create />} />
         </Routes>
       </div>
     );

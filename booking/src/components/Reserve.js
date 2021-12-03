@@ -19,7 +19,7 @@ class Reserve extends Component {
         return (
             <div>
                 {/* {this.displayList()} */}
-                TESTING
+                Functional
             </div>
         );
     }

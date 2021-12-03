@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
+import Navbar from './Navbar.js'
 
 class Home extends Component {
     render() {
         return (
             <div>
-                <h1><Link to="/Reserve">Reserve</Link></h1>
-                <h1><Link to="/Create">Create</Link></h1>
+                Home page functional
             </div>
         );
     }
