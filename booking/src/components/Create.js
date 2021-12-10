@@ -7,13 +7,22 @@ class Create extends Component {
     }
 
     createBooking = () => {
-
+        // Form to include:
+        //-Company (parent)
+        //-Event (type)
+        //-Title
+        //-Time
+        //-Duration
+        //-Location
+        //-Description
+        //-Media
+        //-Links
     }
-    
+
     render() {
         return (
             <div>
-
+                Create Booking
             </div>
         );
     }
