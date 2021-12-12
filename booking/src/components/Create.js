@@ -21,7 +21,7 @@ class Create extends Component {
 
     render() {
         return (
-            <div>
+            <div className="create">
                 Create Booking
             </div>
         );
