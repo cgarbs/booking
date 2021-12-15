@@ -7,8 +7,6 @@ import Home from './components/Home.js'
 import Create from './components/Create.js'
 import Reserve from './components/Reserve.js'
 
-// Connect "actions" API for authorization and backend manipulation?
-
 class App extends Component {
   render() {
     return (
